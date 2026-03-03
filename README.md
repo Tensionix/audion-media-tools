@@ -41,7 +41,6 @@ For best results, it is strongly recommended to use a **FULL build of FFmpeg** (
 Root folders:
 
 ```
-
 Docs
 Download
 LUTs
@@ -49,7 +48,6 @@ Scripts
 Source
 Tools
 Transcoded\
-
 ```
 
 Where:
@@ -67,7 +65,6 @@ Where:
 Your `Tools\` folder contains:
 
 ```
-
 Tools
 7zip
 download
@@ -79,13 +76,11 @@ PowerShell
 yt-dlp
 env.cmd
 Run-PowerShell.cmd
-
 ```
 
 FZF scripts:
 
 ```
-
 Tools\Launchers\fzf
 fzf-main.ps1
 launcher-youtube.fzf.ps1
@@ -96,7 +91,6 @@ launcher-prores-dnxhr.fzf.ps1
 launcher-x264-hevc.fzf.ps1
 launcher-fps.fzf.ps1
 launcher-tools-update.fzf.ps1
-
 ```
 
 PowerShell portable is unpacked directly into:
@@ -208,18 +202,14 @@ By default, logs stay visible (recommended).
 If you want clean screen before each menu:
 
 ```
-
 set AUDION_FZF_CLEAR=1
 fzf-launcher-main.cmd
-
 ```
 
 Disable:
 
 ```
-
 set AUDION_FZF_CLEAR=
-
 ```
 
 ---
@@ -296,16 +286,14 @@ Most scripts are robust, but if a specific preset breaks on special filenames:
 
 ### Want clean screen before every FZF menu
 Enable:
+
 ```
-
 set AUDION_FZF_CLEAR=1
-
 ```
 Disable:
+
 ```
-
 set AUDION_FZF_CLEAR=
-
 ```
 
 ---
@@ -317,4 +305,3 @@ set AUDION_FZF_CLEAR=
 Third-party tools are **NOT included** and are governed by their own licenses:
 FFmpeg, yt-dlp, fzf, PowerShell, MediaDownloader, 7-Zip, etc.
 ```
-
