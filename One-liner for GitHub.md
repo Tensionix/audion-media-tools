@@ -1,0 +1,1 @@
+Portable FFmpeg preset toolkit (CMD + FZF UI) for high-quality video workflows — with SOXR audio resampling, remux utilities, and YouTube helpers.
