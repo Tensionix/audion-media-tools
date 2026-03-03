@@ -6,7 +6,7 @@ This release is a **scripts-only bundle** (no third-party binaries included).
 Use the README to download and place: **FFmpeg / fzf / 7-Zip / yt-dlp / PowerShell / MediaDownloader** into `Tools\...`.
 
 ## Start
-- Create folders: `run-init-dir.cmd`
+- Repair folder skeleton (optional): `run-init-dir.cmd`
 - CMD UI: `launcher-main.cmd`
 - FZF UI: `fzf-launcher-main.cmd`
 
@@ -22,4 +22,5 @@ Runner:
 
 ## Notes
 - Third-party tools are **not included** and have their own licenses.
+
 - Project scripts/docs are MIT-licensed.
