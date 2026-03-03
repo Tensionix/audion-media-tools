@@ -41,12 +41,12 @@ For best results, it is strongly recommended to use a **FULL build of FFmpeg** (
 Root folders:
 
 ```
-Docs
-Download
-LUTs
-Scripts
-Source
-Tools
+Docs\
+Download\
+LUTs\
+Scripts\
+Source\
+Tools\
 Transcoded\
 ```
 
@@ -305,3 +305,4 @@ set AUDION_FZF_CLEAR=
 Third-party tools are **NOT included** and are governed by their own licenses:
 FFmpeg, yt-dlp, fzf, PowerShell, MediaDownloader, 7-Zip, etc.
 ```
+
