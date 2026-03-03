@@ -110,15 +110,14 @@ So the important file is:
 ## Quick Start
 
 1) Unpack the release into any folder (portable).
-2) Run:
 
-```
+2) 2) (Optional) If you damaged the folder structure, run:
 
-run-init-dir.cmd
-
-```
+`run-init-dir.cmd` is a **repair tool**: it recreates the default folder layout if you accidentally delete or damage project folders.  
+Most users do **not** need to run it after unpacking the release, because the archive already contains the full folder structure.
 
 3) Download tools (below) and place them into their folders.
+
 4) Start:
 - CMD UI: `launcher-main.cmd`
 - FZF UI: `fzf-launcher-main.cmd`
@@ -318,3 +317,4 @@ set AUDION_FZF_CLEAR=
 Third-party tools are **NOT included** and are governed by their own licenses:
 FFmpeg, yt-dlp, fzf, PowerShell, MediaDownloader, 7-Zip, etc.
 ```
+
